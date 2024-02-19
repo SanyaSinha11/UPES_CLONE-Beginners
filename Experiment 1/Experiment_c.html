@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DEHRADUN TOURISM</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    .container {
+      position: relative;
+      text-align: center;
+      background-color: #a5a5a5;
+      margin-top: 0px;
+    }
+
+    .centered {
+      position: absolute;
+      color: white;
+      font-size: 70px;
+      font-family: 'Times New Roman', Times, serif;
+      top: 10%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      animation: flyIn 1.5s ease-in-out;
+    }
+    @keyframes flyIn {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+      }
+      100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .sub-centered {
+      position: absolute;
+      color: white;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      top: 13%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      animation: flyIn 1.5s ease-in-out;
+    }
+    .logo{
+      width: 100%; 
+      height: 100px; 
+      display: flex; 
+      align-items:center; 
+      position: absolute; 
+      background-color: #010000d7; 
+      position: fixed;
+    }
+    .list a{
+      transition: transform 0.3s ease;
+    }
+    .list a:hover{
+      transform: scale(1.2);
+    }
+    .image-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .image-box {
+      width: 300px;
+      height: 300px;
+      border-radius: 20px;
+      margin: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+    .image-box:hover {
+      transform: scale(1.1);
+    }
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .footer{
+      margin-bottom: 0px;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      position: fixed;
+      z-index: 2;
+      bottom: 0;
+      color: white;
+    }
+  </style>
+</head>
+<body bgcolor="#a5a5a5">
+  <div class="container">
+    <div class="centered">DEHRADUN</div>
+    <div class="sub-centered">City of Love</div>
+    <div class="logo">
+        <nav style="align-items:center; justify-content: space-around; flex-wrap: wrap; display: flex; margin-top: 2px; margin-bottom: 10px;">
+            <img src = "tourism.png" width="100px" height="auto" style="margin-top: 10px; margin-left: 40px;">
+            <div class="list">
+            <ul>
+                <a href="Experiment_a.html" style="display:inline-block; color: white; margin: 0 10px; margin-left: 70px; text-decoration: none; font-size: 15px;"><b>HOME</b></a>
+                <a href="#a2" style="display:inline-block; color: white; margin: 0 10px; text-decoration: none; font-size: 15px;"><b>TOURIST PLACES</b></a>
+                <a href="https://www.google.com/maps/place/Dehradun" style="display:inline-block; color: white; margin: 0 10px; text-decoration: none; font-size: 15px;"><b>MAP</b></a>
+                <a href="#contact" style="display:inline-block; color: white; margin: 0 10px; text-decoration: none; font-size: 15px;"><b>CONTACT</b></a>
+            </ul>
+            </div>
+        </nav>   
+        <div class="search-container" style="text-align: right; padding-right: 8px; margin-top: 2px; margin-left: 350px;">
+            <input type="text" class="search-box" placeholder="Search..." style="padding: 3px ; border-radius: 20px;">
+            <button class="search-button" style="padding: 3px 7px; cursor: pointer; border-radius: 20px; background-color: rgba(3, 248, 252, 0.718);">Search</button>
+        </div> 
+    </div>
+    <ul style="display: flex; margin-top: 42%; align-items: center; position: absolute; background-color: rgba(0, 0, 0, 0.534); width: 96.8%;">
+        <a href="#a1" style="display:inline-block; color: white; text-decoration: none; font-size: 25px; margin-left: 320px; margin-right: 50px;"><b> Why Visit </b></a>
+        <a href="#a2" style="display:inline-block; color: white; margin: 0 50px; text-decoration: none; font-size: 25px;"><b> Attractions </b></a>
+        <a href="#a3" style="display:inline-block; color: white; margin: 0 50px; text-decoration: none; font-size: 25px;"><b> How to Reach </b></a>
+    </ul>
+    <img id="coverImage" src="https://www.holidify.com/images/bgImages/DEHRADUN.jpg" alt="Dehradun Image" style="width:100%;height:900px;">
+    <p id="a1" style="color: aliceblue; text-align: left; margin-left: 25px; font-size: 25px; font-weight: bold;"><u>WHAT TO KNOW:</u></p> 
+    <p style="color: black; text-align: left; margin-left: 25px; font-size: 17px; margin-right: 25px;">
+        Fascinating history and intriguing mythology meet at the crossroads of this beautiful hill-station, one of the most popular in the country. Just 240 km from Delhi, 
+        nestled in the rolling Doon Valley and at the foothills of the Himalayas, Dehradun is surrounded by high mountains and lush Sal forests. Known for its pleasant 
+        year-round weather and scenic surroundings, the city is a gateway to several popular hill-stations like Mussoorie and pilgrimage sites like Haridwar and Rishikesh. 
+        <br><br>
+        Offering a blend of unparalleled landscape and modern amenities, bustling Dehradun is a city for both business and leisure. Once a retirement haven, today it buzzes 
+        with excitement, yet has managed to retain its laid-back vibe. Quaint cafés and lounges rub shoulders with heritage monuments and bazaars. 
+    </p>
+    <p style="color: aliceblue; text-align: left; margin-left: 25px; font-size: 25px; font-weight: bold;"><u>WHEN TO VISIT:</u></p> 
+    <p style="color: black; text-align: left; margin-left: 25px; font-size: 17px; margin-right: 25px;">
+        Dehradun is pleasant throughout the year but is ideal from March to June and October to December. Summer temperature peaks at 36°C and the mercury dips to 5°C in winters.
+    </p>
+    <br>
+    <img src="tourss.png" style="width: 1000px; height: auto; margin-left: 60px; margin-right: 60px; align-items: center;">
+    <br><br><br><br>
+    <p id="a2" style="color: aliceblue; font-size: 25px; font-weight: bold;"><u>ATTRACTIONS</u></p> 
+    <br>
+    <div class="image-container"> 
+      <div class="image-box" style="background-color: #c0c0c0;">
+        <button style="padding: 5px 10px; cursor: pointer; font-weight: bold; border: 2px solid aliceblue; position:absolute;">
+            <a href="https://www.holidify.com/places/dehradun/clock-tower-sightseeing-1695.html" style="color: black; text-decoration: none;"> Clock Tower </a></button>
+        <img src="https://dehraduntourism.co.in/images/places-to-visit/header/ghanta-ghar-clock-tower-dehradun-tourism-entry-fee-timings-holidays-reviews-header.jpg" alt="Image 4">
+      </div>
+      <div class="image-box" style="background-color: #c0c0c0;">
+        <button style="padding: 5px 10px; cursor: pointer; font-weight: bold; border: 2px solid aliceblue; position:absolute;">
+            <a href="https://www.makemytrip.com/tripideas/attractions/kempty-falls" style="color: black; text-decoration: none;"> Kempty Falls </a></button>
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/97000/97615-Dehradun-And-Vicinity.jpg" alt="Image 2">
+      </div>
+      <div class="image-box" style="background-color: #c0c0c0;">
+        <button style="padding: 5px 10px; cursor: pointer; font-weight: bold; border: 2px solid aliceblue; position:absolute;">
+            <a href="https://www.makemytrip.com/tripideas/attractions/sahastradhara" style="color: black; text-decoration: none;"> Sahastradhara </a></button>
+        <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/04/Sahastradhara.webp" alt="Image 3">
+      </div>
+      <div class="image-box" style="background-color: #c0c0c0;">
+        <button style="padding: 5px 10px; cursor: pointer; font-weight: bold; border: 2px solid aliceblue; position:absolute;">
+            <a href="https://www.makemytrip.com/tripideas/places/mussoorie" style="color: black; text-decoration: none;"> Mussoorie </a></button>
+        <img src="https://tulas.edu.in/wp-content/uploads/2022/01/New-Project-1.webp" alt="Image 4">
+      </div>
+      <h4 style="margin: 30px; text-align: center;">Dehradun serves as the base camp for several treks, including to Kempty Falls and Nag Tibba in Mussoorie. There are several 
+        high altitude treks that start from here as well.<br>Enthusiasts pedal away in and around Dehradun's gentle slopes and valley, with trails leading to Mussoorie and Maldevta 
+        (around 40 km). The city has good cycling tracks along the old Mussoorie highway.<br><br>For more tourist locations >> 
+        <a href="https://www.makemytrip.com/tripideas/places-to-visit-in-dehradun"> Click Here </a>
+      </h4>
+    </div>
+    <br><br><br>
+    <p id="a3" style="color: aliceblue; font-size: 25px; font-weight: bold;"><u>HOW TO REACH</u></p> 
+    <div class="image-container">
+        <div class="image-box" style="background-color: #c0c0c0; width: 300px; height: 450px;">
+          <img src="flight.png" alt="By Flight">
+        </div>
+        <div class="image-box" style="background-color: #c0c0c0; width: 300px; height: 450px;">
+            <img src="train.png" alt="By Train">
+        </div>
+        <div class="image-box" style="background-color: #c0c0c0; width: 300px; height: 450px;">
+            <img src="road.png" alt="By Road">
+        </div>
+    </div>      
+    <br><br>
+    <img src="query.png" style="width:100%;height:auto;">
+  </div>
+  <div id="contact" style="background-color: rgba(62, 62, 62, 0.705); color: white; width: 100%; position: relative; padding-bottom: 80px;">
+    <h3 style="margin-left: 40px; margin-right: 360px; padding-top: 10px; display: inline-block;"><b><u>CONTACT US:</u></b></h3>
+    <h3 style="margin-left: 40px; margin-right: 100px; padding-top: 10px; display: inline-block;"><b><u>COORPORATE OFFICE:</u></b></h3>
+    <p style="font-size: 15px; text-align: justify; margin-left: 40px;margin-right: 95px; display: inline-block;">
+     Toll Free : 180010282244<br>Email : tourism.ddn@gmail.com<br>For International Queries : international.guide@gmail.com
+    </p>
+    <div style="height: 60px; border-left: 2px solid white; margin: 0 20px; display: inline-block;"></div>
+    <p style=" font-size: 15px; text-align: justify; display: inline-block; margin-left: 30px;">
+     IT Tower, Upper Ground & First Floor,<br> Greater Kailash-II, New Delhi-110048<br><br>
+    </p>
+    <br>
+ </div>
+ <div class="footer">
+  <p style="text-align: center;"> Copyright &copy; 2024 Sinha. All rights reserved. </p>
+</div>
+</body>
+</html>
+
